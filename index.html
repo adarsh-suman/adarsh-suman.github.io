@@ -1,64 +1,143 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Adarsh Suman | Lead Data Scientist</title>
-  <meta name="description" content="Adarsh Suman is a Lead Data Scientist specializing in Marketing Mix Modeling, Bayesian ML, and time series forecasting.">
-  <style>
-    body {
-      font-family: Georgia, 'Times New Roman', serif;
-      max-width: 680px;
-      margin: 0 auto;
-      padding: 48px 20px;
-      line-height: 1.7;
-      color: #222;
-      background: #fff;
-    }
-    h1 { font-size: 2em; margin-bottom: 0.1em; }
-    h2 { font-size: 1.2em; margin-top: 2em; border-bottom: 1px solid #ddd; padding-bottom: 4px; }
-    .tagline { color: #555; margin-top: 0; }
-    a { color: #0b5cad; }
-    ul { padding-left: 20px; }
-    footer { margin-top: 3em; font-size: 0.85em; color: #777; }
-  </style>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<title>Adarsh Suman | Senior Consultant, Data Science</title>
+<meta name='description' content='Adarsh Suman is a Senior Consultant in Data Science working on marketing mix modeling, Bayesian ML and forecasting.'>
+<script>document.documentElement.classList.add('js')</script>
+<style>
+:root{--bg:#fafaf7;--fg:#1c1c1a;--mut:#66665f;--line:#e2e0d8;--card:#fff;--acc:#2f5bea}
+:root[data-theme=dark]{--bg:#111214;--fg:#ececea;--mut:#9a9a94;--line:#2a2b2e;--card:#18191c;--acc:#8aa6ff}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.7 system-ui,-apple-system,'Segoe UI',sans-serif;transition:background .3s,color .3s}
+h1,h2,h3{font-family:Georgia,'Times New Roman',serif;line-height:1.2;margin:0}
+a{color:var(--acc)}
+nav{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:16px;padding:12px 20px;background:var(--bg);border-bottom:1px solid var(--line)}
+nav b{font-family:Georgia,serif;margin-right:auto}
+nav a{text-decoration:none;color:var(--mut);font-size:.9em}
+nav a:hover{color:var(--acc)}
+button{background:none;border:1px solid var(--line);color:var(--fg);border-radius:8px;padding:4px 10px;cursor:pointer;font-size:1em}
+main{max-width:760px;margin:0 auto;padding:0 20px 40px}
+section{padding-top:56px}
+h2{font-size:1.4em;margin-bottom:18px}
+.hero{padding-top:72px}
+.hero h1{font-size:clamp(2em,7vw,3em)}
+.hero p{color:var(--mut);max-width:620px}
+.hero .tag{color:var(--acc);font-weight:600}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}
+.card,.stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;transition:transform .2s,border-color .2s}
+.card:hover,.stat:hover{transform:translateY(-3px);border-color:var(--acc)}
+.stat b{display:block;font:700 2em Georgia,serif;color:var(--acc)}
+.stat span{display:block;color:var(--mut);font-size:.9em;line-height:1.4}
+.card+.card{margin-top:14px}
+.card h3{font-size:1.1em}
+.meta{color:var(--mut);font-size:.9em;margin:2px 0 8px}
+.card ul{margin:8px 0 0;padding-left:20px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;padding:0;list-style:none;margin:0}
+.chips li{border:1px solid var(--line);border-radius:99px;padding:4px 14px;font-size:.9em;transition:.2s}
+.chips li:hover{background:var(--acc);color:var(--bg);border-color:var(--acc)}
+footer{text-align:center;color:var(--mut);font-size:.85em;padding:30px}
+.js .rv{opacity:0;transform:translateY(18px);transition:opacity .7s,transform .7s}
+.js .rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}.js .rv{opacity:1;transform:none}}
+@media(max-width:560px){nav a{display:none}}
+</style>
 </head>
 <body>
+<nav><b>Adarsh Suman</b><a href='#impact'>Impact</a><a href='#work'>Experience</a><a href='#focus'>Focus</a><a href='#contact'>Contact</a><button id='tg' aria-label='Toggle light and dark theme'>◐</button></nav>
+<main>
+<section class='hero rv'>
+<p class='tag'>Senior Consultant, Data Science · Straive</p>
+<h1>I turn messy business data into decisions that pay off.</h1>
+<p>I build statistical and machine learning systems for marketing measurement, demand forecasting and inventory planning. Before that, I spent years in analytics at Xiaomi, automating reporting and cutting stock-outs across a large distribution network.</p>
+</section>
 
-  <h1>Adarsh Suman</h1>
-  <p class="tagline">Lead Data Scientist at Latentview Analytics. Based in India.</p>
+<section id='impact' class='rv'>
+<h2>Impact at Xiaomi</h2>
+<div class='stats'>
+<div class='stat'><b data-to='35000' data-suf='+'>0</b><span>retail outlets covered by an AI-driven anomaly and fraud detection system</span></div>
+<div class='stat'><b data-to='99' data-suf='%'>0</b><span>stock distribution accuracy, up from 75%</span></div>
+<div class='stat'><b data-to='20' data-suf=' pts'>0</b><span>drop in stock-out rate, from 30% to 10%</span></div>
+<div class='stat'><b data-to='100' data-suf='+'>0</b><span>hours saved every month through automation</span></div>
+<div class='stat'><b data-to='50' data-suf='+'>0</b><span>dashboards and reports built and maintained</span></div>
+<div class='stat'><b data-to='300' data-suf='+'>0</b><span>distribution partners monitored</span></div>
+</div>
+</section>
 
-  <h2>About</h2>
-  <p>I am a data scientist who builds statistical and machine learning systems that help businesses make better decisions. My work centers on measuring marketing effectiveness, forecasting demand, and optimizing inventory under uncertainty.</p>
+<section id='work' class='rv'>
+<h2>Experience</h2>
+<div class='card'><h3>Senior Consultant, Data Science, Straive</h3><p class='meta'>Sep 2026 – Present</p><ul>
+<li>Measure marketing effectiveness with marketing mix models and incrementality tests.</li>
+<li>Build Bayesian and time series models for demand forecasting and probabilistic inventory optimization.</li>
+<li>Apply GenAI and LLM techniques to analytics workflows.</li></ul></div>
+<div class='card'><h3>Lead Data Scientist, Latentview Analytics</h3><p class='meta'>May 2025 – Aug 2026</p><ul>
+<li>Measured marketing effectiveness with marketing mix models and incrementality tests.</li>
+<li>Built Bayesian and time series models for demand forecasting and probabilistic inventory optimization.</li>
+<li>Applied GenAI and LLM techniques to analytics workflows.</li></ul></div>
+<div class='card'><h3>Assistant Analytics Manager, Xiaomi</h3><p class='meta'>Aug 2021 – May 2025</p><ul>
+<li>Designed an AI-driven anomaly and fraud detection system across 35,000+ retail outlets and 300+ partners, using Gen AI, Python, SQL and Power BI.</li>
+<li>Built a demand and replenishment model for Mi.com that cut stock-outs from 30% to 10%.</li>
+<li>Created a single source of truth pipeline that unified inventory, sales and operational data for real-time tracking.</li>
+<li>Raised stock allocation accuracy from 75% to 99% with a Python distribution model, saving 100+ hours a month.</li>
+<li>Automated a real-time production planning dashboard for daily and weekly scenario tracking.</li></ul></div>
+<div class='card'><h3>Associate Data Analyst, I-PAC</h3><p class='meta'>Aug 2020 – May 2021</p><ul>
+<li>Built Power BI dashboards and automated reporting workflows.</li>
+<li>Wrote web scrapers with Beautiful Soup and Selenium to enrich datasets.</li>
+<li>Analysed large public grievance datasets to shape targeted micro-campaigns.</li></ul></div>
+</section>
 
-  <h2>Experience</h2>
-  <p><strong>Lead Data Scientist, Latentview Analytics</strong><br>
-  Leading analytics engagements across marketing measurement and demand forecasting for global clients.</p>
-  <p><strong>Data Scientist, Xiaomi</strong><br>
-  Worked on applied data science problems at scale.</p>
+<section id='focus' class='rv'>
+<h2>Focus and skills</h2>
+<ul class='chips'><li>Marketing Mix Modeling</li><li>Bayesian ML</li><li>Time series forecasting</li><li>Inventory optimization</li><li>GenAI and LLMs</li><li>Python</li><li>SQL</li><li>PySpark</li><li>GCP</li><li>Power BI</li></ul>
+</section>
 
-  <h2>Areas of Focus</h2>
-  <ul>
-    <li>Marketing Mix Modeling (MMM) and incrementality testing</li>
-    <li>Bayesian machine learning</li>
-    <li>Time series forecasting</li>
-    <li>Probabilistic inventory optimization</li>
-    <li>Generative AI and LLM applications</li>
-  </ul>
+<section class='rv'>
+<h2>Education</h2>
+<div class='card'><h3>B.Tech, National Institute of Technology Calicut</h3><p class='meta'>2016 – 2020</p></div>
+</section>
 
-  <h2>Technical Skills</h2>
-  <p>Python, SQL, PySpark, and Google Cloud Platform (GCP).</p>
+<section id='contact' class='rv'>
+<h2>Contact</h2>
+<p>Email: <a href='mailto:adarshsuman1998@gmail.com'>adarshsuman1998@gmail.com</a><br>
+GitHub: <a href='https://github.com/adarsh-suman'>github.com/adarsh-suman</a><br>
+LinkedIn: <a href='https://www.linkedin.com/in/adarsh-suman-5b8713169'>linkedin.com/in/adarsh-suman-5b8713169</a></p>
+</section>
+</main>
+<footer>&copy; 2026 Adarsh Suman</footer>
 
-  <h2>Education</h2>
-  <p><strong>B.Tech, National Institute of Technology Calicut</strong><br>
-  2016 to 2020</p>
-
-  <h2>Contact</h2>
-  <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a><br>
-  LinkedIn: <a href="https://www.linkedin.com/in/your-profile">linkedin.com/in/your-profile</a><br>
-  GitHub: <a href="https://github.com/yourusername">github.com/yourusername</a></p>
-
-  <footer>&copy; 2026 Adarsh Suman</footer>
-
+<script>
+var r=document.documentElement,t;
+try{t=localStorage.getItem('theme')}catch(e){}
+if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';
+r.dataset.theme=t;
+document.getElementById('tg').onclick=function(){
+  t=t==='dark'?'light':'dark';r.dataset.theme=t;
+  try{localStorage.setItem('theme',t)}catch(e){}
+};
+var rm=matchMedia('(prefers-reduced-motion:reduce)').matches;
+function count(el){
+  var to=+el.dataset.to,s=el.dataset.suf||'';
+  if(rm){el.textContent=to.toLocaleString()+s;return}
+  var st=null;
+  function f(ts){
+    st=st||ts;var p=Math.min((ts-st)/1400,1);
+    el.textContent=Math.round(to*(1-Math.pow(1-p,3))).toLocaleString()+s;
+    if(p<1)requestAnimationFrame(f);
+  }
+  requestAnimationFrame(f);
+}
+var io=new IntersectionObserver(function(es){
+  es.forEach(function(e){
+    if(e.isIntersecting){
+      e.target.classList.add('in');
+      e.target.querySelectorAll('[data-to]').forEach(count);
+      io.unobserve(e.target);
+    }
+  });
+},{threshold:.15});
+document.querySelectorAll('.rv').forEach(function(el){io.observe(el)});
+</script>
 </body>
 </html>
